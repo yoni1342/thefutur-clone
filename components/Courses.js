@@ -1,8 +1,7 @@
 import React from 'react'
-import {ArrowNarrowRightIcon} from '@heroicons/react/outline'
 function Courses({img, title, cretor, name, price, desc,}) {
   return (
-    <div className = 'flex w-full h-[20rem] bg-white pr-5 mx-2 hover:shadow-xl md:flex-col md:h-[37rem] lg:h-[37rem] md:p-0 overflow-hidden transition-all duration-200 ease-in-out group '>
+    <div className = 'flex w-full h-[30rem] bg-white pr-5 mx-2 hover:shadow-xl md:flex-col md:h-[37rem] lg:h-[37rem] md:p-0 overflow-hidden transition-all duration-200 ease-in-out group '>
         <img src={img} alt="" className = 'object-cover w-[52%] md:w-fit md:group-hover:translate-y-[-10%] transition-all duration-500   ease-in-out'/>
         <div className = 'relative h-full '>
           <div className ='absolute bg-white md:group-hover:top-[-150%] lg:group-hover:top-[-90%] lg:top-[30%] transition-all duration-500   ease-in-out'>
@@ -16,7 +15,7 @@ function Courses({img, title, cretor, name, price, desc,}) {
             </dir>
             <p className = 'px-4 font-light text-sm pb-3 md:pt-10'>{desc}</p>
             <div className = 'flex items-center space-x-9 p-4 cursor-pointer'>
-              <button className ='bg-[#1A27C9] text-white px-5 py-3 uppercase hover:bg-[#032599] hidden md:inline-block'>buy now</button>
+              <button className ='bg-[#1A27C9] text-white px-5 py-3 uppercase hover:bg-[#14349c] hidden md:inline-block'>buy now</button>
             <p className = 'text-sm'>Learn More</p>
             <img src="https://assets-global.website-files.com/5d816b07d269385f68dbcab0/5d816b07d26938636adbcaf8_icon-arrow-small-black.svg" alt="" className = 'w-5'/>
             </div>

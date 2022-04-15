@@ -5,6 +5,8 @@ import Banner from '../components/Banner';
 import PromoCard from '../components/PromoCard'
 import Enrollment from '../components/Enrollment'
 import Courses from '../components/Courses'
+import Footer from '../components/Footer';
+import PremiumCoaching from '../components/PremiumCoaching';
 const Home: NextPage = () => {
   return (
     <div className="h-screen object-contain">
@@ -28,8 +30,8 @@ const Home: NextPage = () => {
           <Enrollment />
       </div>
       {/* MORE COURSES */}
-      <div className = 'h-fit pt-40 bg-[#F3F2F2] px-5 lg:flex lg:justify-between lg:space'>
-      <p className = 'uppercase pb-6 lg:flex-[.4]'>More Courses</p>
+      <div className = 'h-fit pt-40 bg-[#F3F2F2] px-5 lg:flex lg:justify-between lg:space pb-40'>
+      <p className = 'uppercase pb-6 lg:flex-[.4] text-3xl font-light'>More Courses</p>
         <div className = 'md:grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:gap-5 md:space-y-0  lg:flex-[.6]'>
         <Courses img='./course.jpg' title ='Positioning & Lead Generation' cretor ='https://assets-global.website-files.com/5d816b07d269382588dbcab1/60cd0f017a96e400add8fdf2_image-profile-chris2-140-min.jpg' name ='Chris Do' price='$699' desc='Build awareness for your services, market to a global audience, and command a price premium through strategic positioning an'  />
         <Courses img='https://assets-global.website-files.com/5d816b07d269382588dbcab1/624dd73317e5f1adadee82dd_Instagram%20Carousel%20Design%20Thumbnail%201x1.png' title ='Instagram Carousel Design' cretor ='https://assets-global.website-files.com/5d816b07d269382588dbcab1/60cd0f017a96e400add8fdf2_image-profile-chris2-140-min.jpg' name ='Chris Do' price='$149' desc="From writing and design, to maximizing engagement with carousels and Reels, Learn Chris Do's exact process for make attention-grabbing Instagram content meant to grow your industry authority." />
@@ -38,6 +40,12 @@ const Home: NextPage = () => {
         <Courses img='https://assets-global.website-files.com/5d816b07d269382588dbcab1/5ee437a89f82304874da8488_the-futur-color-for-creatives-greg-gunn-thumbnail.jpg' title ='Color for Creatives' cretor ='https://assets-global.website-files.com/5d816b07d269382588dbcab1/60cd0f167a96e40c43d8fdf6_the-futur-greg-gunn-color-for-creatives-instructor-140-min.jpg' name ='Greg Gunn' price='$149' desc="Go beyond theory and learn color like a pro in this course from Greg Gunn. You'll master how to see, understand, and use color to create fresh, original work."/>
         <Courses img='https://assets-global.website-files.com/5d816b07d269382588dbcab1/60d4ab2d67547cdeedf9c212_TheFutur_Perfect%20Proposal-800x800.jpg' title ='The Perfect Proposal' cretor ='https://assets-global.website-files.com/5d816b07d269382588dbcab1/60cd0f215aaef40b412da04e_image-profile-ben2-140-min.jpg' name ='Ben Burns' price='$59' desc="Everything you need to craft winning proposals: backed by decades of experience and millions of dollars in closed business."/>
         </div>
+      </div>
+      <div className ='h-fit bg-[#F7E15E]'>
+          <PremiumCoaching />
+      </div>
+      <div className = 'h-fit bg-black'>
+        <Footer />
       </div>
     </div>
   )
