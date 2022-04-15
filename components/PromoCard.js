@@ -2,7 +2,7 @@ import React from 'react'
 
 function PromoCard({icon, title, desc, btn}) {
   return (
-    <div className = 'relative bg-white px-5 py-10 m-5 hover:shadow-2xl transition-all duration-200 ease-in-out lg:w-[30rem] lg:h-[36rem] lg:p-10 '>
+    <div className = 'relative bg-white px-5 py-10 m-5 hover:shadow-2xl transition-all duration-200 ease-in-out lg:w-[37rem] lg:h-[36rem] lg:px-20 lg:m-7 '>
         <div className = 'space-y-7 lg:space-y-10 flex flex-col justify-end'>
           <h2 className = 'text-4xl font-bold mt-10 lg:mt-20 lg:text-5xl'>{title}</h2>
           <p className = 'text-sm font-light lg:text-lg lg:font-normal'>{desc}</p>
