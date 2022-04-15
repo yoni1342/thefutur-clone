@@ -11,7 +11,12 @@ function Banner() {
         <button className = 'bg-[#F6E05E] px-20 py-3 ml-4 my-4 uppercase text-[15.54px] hover:bg-[#F8D129] text-black font-[500] md:ml-7'>shop courses</button>
       </div>
         <div className='flex justify-center pr-10'>
-          <video src="./The Futur - Business and Design Education, Revolutionized.mp4" className = 'overflow-hidden h-[30rem] object-cover rounded-3xl lg:w-[40rem] lg:h-[32rem] xl:w-[50rem] xl:h-[43rem] 2xl:h-[58rem] 2xl:w-[40rem]' autoPlay muted controls></video>
+          <iframe src="https://www.videoask.com/fzknw5zov"
+          allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
+          className = 'overflow-hidden h-[30rem] object-cover rounded-3xl lg:w-[40rem] lg:h-[32rem] xl:w-[50rem] xl:h-[43rem] 2xl:h-[58rem] 2xl:w-[40rem]'
+         >
+        </iframe>
+
         </div>
     </div>
   )

@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className = 'text-white flex justify-between p-2 sm:p-3 md:p-4 lg:p-5 xl:p-7 2xl:p-10 items-center'>
         <div className = 'flex space-x-5 items-center'>
-            <h1 className ='  cursor-pointer'>
+            <h1 className ='cursor-pointer'>
               <svg width="100%" height="auto" viewBox="0 0 945 202" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path d="M41.87 40.6104H0V197.19H41.87V111.97H66.05V76.7604H41.87V40.6104Z" fill="currentColor"></path>
