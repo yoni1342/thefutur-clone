@@ -9,9 +9,9 @@ import Footer from '../components/Footer';
 import PremiumCoaching from '../components/PremiumCoaching';
 const Home: NextPage = () => {
   return (
-    <div className="h-screen object-contain">
+    <div className="h-screen object-contain overflow-x-hidden">
       <Head>
-        <title>Create Next App</title>
+        <title>TheFuturClone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className = 'h-[70%] md:h-screen lg:h-[58%] xl:h-[80%] 2xl:h-[100%] bg-[#0C0D0D] '>
